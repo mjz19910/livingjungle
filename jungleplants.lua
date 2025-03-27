@@ -637,10 +637,9 @@ minetest.register_decoration({
 		},
     y_max = 0,
     y_min = 0,
-    biomes = {"livingjungle:jungle_shore","junglee_shore"},
+    biomes = {"livingjungle:jungle_shore","jungle_shore"},
     schematic = minetest.get_modpath("livingjungle").."/schematics/livingjungle_mangrovetree.mts",
-	flags = "place_center_x, place_center_z",
-    flags = "force_placement",
+	flags = "force_placement",
 	rotation = "random",
 })
 
@@ -660,10 +659,9 @@ minetest.register_decoration({
 		},
     y_max = 0,
     y_min = 0,
-    biomes = {"livingjungle:jungle_shore","junglee_shore"},
+    biomes = {"livingjungle:jungle_shore","jungle_shore"},
     schematic = minetest.get_modpath("livingjungle").."/schematics/livingjungle_mangrovetree2.mts",
-	flags = "place_center_x, place_center_z",
-    flags = "force_placement",
+	flags = "force_placement",
 	rotation = "random",
 })
 
@@ -683,10 +681,9 @@ minetest.register_decoration({
 		},
     y_max = 0,
     y_min = 0,
-    biomes = {"livingjungle:jungle_shore","junglee_shore"},
+    biomes = {"livingjungle:jungle_shore","jungle_shore"},
     schematic = minetest.get_modpath("livingjungle").."/schematics/livingjungle_mangrovetree2.mts",
-	flags = "place_center_x, place_center_z",
-    flags = "force_placement",
+	flags = "force_placement",
 	rotation = "random",
 })
 
@@ -706,10 +703,9 @@ minetest.register_decoration({
 		},
     y_max = 0,
     y_min = 0,
-    biomes = {"livingjungle:jungle_shore","junglee_shore"},
+    biomes = {"livingjungle:jungle_shore","jungle_shore"},
     schematic = minetest.get_modpath("livingjungle").."/schematics/livingjungle_mangrovetree3.mts",
-	flags = "place_center_x, place_center_z",
-    flags = "force_placement",
+	flags = "force_placement",
 	rotation = "random",
 })
 
