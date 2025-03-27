@@ -292,15 +292,15 @@ minetest.register_node("livingjungle:samauma_sapling", {
 	end,
 
 	on_place = function(itemstack, placer, pointed_thing)
-		itemstack = default.sapling_on_place(itemstack, placer, pointed_thing,
+		return default.sapling_on_place(
+			itemstack, placer, pointed_thing,
 			"livingjungle:samauma_sapling",
 			-- minp, maxp to be checked, relative to sapling pos
 			{x = -1, y = 0, z = -1},
 			{x = 1, y = 1, z = 1},
 			-- maximum interval of interior volume check
-			2)
-
-		return itemstack
+			2
+		)
 	end,
 })
 
